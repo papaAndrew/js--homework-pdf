@@ -29,5 +29,13 @@ git add .
 git commit -m "Init npm project"
 
 // Устанавливаем линтер
-npm install eslint --save-dev
-npx eslint --init
+npm install eslint --save-dev;
+npx eslint --init;
+
+// Устанавливаем претир
+// https://prettier.io/docs/en/install.html
+npm install --save-dev --save-exact prettier;
+// интегрируем с линтером
+// https://prettier.io/docs/en/integrating-with-linters.html -->
+// https://github.com/prettier/eslint-config-prettier
+npm install --save-dev eslint-config-prettier
