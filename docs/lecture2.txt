@@ -27,3 +27,7 @@ npm init -y
 // add & commit
 git add .
 git commit -m "Init npm project"
+
+// Устанавливаем линтер
+npm install eslint --save-dev
+npx eslint --init
