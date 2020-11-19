@@ -39,3 +39,7 @@ npm install --save-dev --save-exact prettier;
 // https://prettier.io/docs/en/integrating-with-linters.html -->
 // https://github.com/prettier/eslint-config-prettier
 npm install --save-dev eslint-config-prettier
+
+// Устанавливаем lint-staged
+// https://github.com/okonet/lint-staged
+npx mrm lint-staged
