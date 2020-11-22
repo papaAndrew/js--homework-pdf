@@ -1,7 +1,7 @@
 
 /** Конспект лекции от 2020-10-05
 */
-
+Import-Module posh-git
 
 Клонирование репозитория
 git clone <url> <dest>
