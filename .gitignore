@@ -1,4 +1,4 @@
 node_modules/
-docs/lecture2.txt
+docs/*.*
 4
 .eslintcache
