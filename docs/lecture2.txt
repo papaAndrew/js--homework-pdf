@@ -1,0 +1,45 @@
+
+/** Конспект лекции от 2020-10-05
+*/
+
+
+Клонирование репозитория
+git clone <url> <dest>
+git remote set-url origin <url>
+
+Создание репозитория
+// создаем пустой репо
+git init
+
+// пустой коммит
+git commit -m "Initial commit" --allow-empty
+
+// привязка на github.com  (копируем с сайта)
+git remote add origin ...
+git branch -M master
+git push -u origin master
+
+// настройка репо на сайте github
+
+// инициализируем проект, создается package.json
+npm init -y
+
+// add & commit
+git add .
+git commit -m "Init npm project"
+
+// Устанавливаем линтер
+npm install eslint --save-dev;
+npx eslint --init;
+
+// Устанавливаем претир
+// https://prettier.io/docs/en/install.html
+npm install --save-dev --save-exact prettier;
+// интегрируем с линтером
+// https://prettier.io/docs/en/integrating-with-linters.html -->
+// https://github.com/prettier/eslint-config-prettier
+npm install --save-dev eslint-config-prettier
+
+// Устанавливаем lint-staged
+// https://github.com/okonet/lint-staged
+npx mrm lint-staged
